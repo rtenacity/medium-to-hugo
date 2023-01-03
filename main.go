@@ -134,7 +134,7 @@ func process(doc *goquery.Document, f os.FileInfo, contentFolder, contentType st
 	}
 
 	//Medium treats comments/replies as posts
-	p.IsComment = doc.Find(".aspectRatioPlaceholder").Length() == 0
+	//p.IsComment = doc.Find(".aspectRatioPlaceholder").Length() == 0
 
 	tmp = doc.Find(".p-canonical")
 	if tmp != nil {
