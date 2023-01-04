@@ -1,6 +1,8 @@
 # Medium to Hugo
 Tool for the migration of articles from a medium.com account to a static website generator with markdown like Hugo.
 
+###Note from Rohan: This is a fork of another project. I forked it to fix a bug in the program since the owner is no longer active. 
+
 Here is a preview from my own migration (from medium to Hugo):
 ![example](./preview.png)
 
